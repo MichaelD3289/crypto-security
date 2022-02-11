@@ -1,0 +1,18 @@
+Cipher. 
+
+My cipher can't be displayed as its generated randomly each time it is ran. The encrypted string, cipher, and decryption function all have to be in possession of the end user. Each character is broken down into its char code. That code moves either up or down by a random number from 0 - 10 staying between char codes 32 and 126. It cannot land on the character codes containing backticks or \ to avoid any bugs in the string. 
+
+the Cipher and encrypted text might look something like this.
+
+Cipher 
+[
+  '6-u',  '7-u', '0-d', '7-u',
+  '0-d',  '5-u', '6-d', '0-u',
+  '10-u', '5-d', '7-u', '9-d',
+  '4-d',  '2-d', '0-d', '0-u',
+  '6-u',  '7-d', '5-u', '10-d',
+  '7-d'
+]
+
+encrypted text
+Nhvl kon*nvcrgng&mm_l

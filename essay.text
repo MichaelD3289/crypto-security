@@ -1,0 +1,15 @@
+major cyber security breach: 
+marriott international 
+september 2018
+impacted 500 million customers
+
+overview: 
+Marriott received an alert from a internal security tool that told them someone was attempting to access the guest reservation database that they had. They didn’t mention any motivations behind it, but some of the things that they were able to pull from the reservation database would be self explanatory as to the motivation. These included: 
+names, mailing addresses, phone numbers, passport numbers, birth date, reservation dates, etc. 
+they did mention that the account numbers tied to card information was encrypted and not stolen. 
+
+tech flaws: 
+while they were investigating the breach they found out that someone had had access to their network since 2014. they did not however make any details of the attack public so we do not know for certain what vulnerability or mistake was the main cause of the breach. but investigators did find a remote access trojan and a mimikatz tool used for sniffing out username/password combos in the system memory. they do not however know how it was placed on the server, but they assume it could have been an phishing email. 
+
+company moves since: 
+they carried out an investigation with security experts and announced plans to phase out their old systems and accelerate security enhancements to its network.
